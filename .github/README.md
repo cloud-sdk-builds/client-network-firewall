@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-network-firewall`](https://www.npmjs.com/package/@aws-sdk/client-network-firewall/v/3.930.0).
+[`@aws-sdk/client-network-firewall`](https://www.npmjs.com/package/@aws-sdk/client-network-firewall/v/3.931.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-network-firewall@3.930.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-network-firewall@3.931.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-VmhOwzvc2e+QKZeRQxS4zLgmPaeZPOi7w4lNLmCzX9MFu9z9IfMONbYaW6cDR/Mh
+sha384-y/SLixDbOvCoRtXi6GJRHAtQKtcGORWsiUQe5HZhjKcVIn8pND8AR4K0UYRIxzyZ
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-network-firewall": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-network-firewall@3.930.0/index.min.mjs"
+            "@aws-sdk/client-network-firewall": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-network-firewall@3.931.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-network-firewall@3.930.0/index.min.mjs": "sha384-VmhOwzvc2e+QKZeRQxS4zLgmPaeZPOi7w4lNLmCzX9MFu9z9IfMONbYaW6cDR/Mh"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-network-firewall@3.931.0/index.min.mjs": "sha384-y/SLixDbOvCoRtXi6GJRHAtQKtcGORWsiUQe5HZhjKcVIn8pND8AR4K0UYRIxzyZ"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-network-firewall": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-network-firewall@3.930.0/index.min.mjs"
+                        "@aws-sdk/client-network-firewall": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-network-firewall@3.931.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-network-firewall@3.930.0/index.min.mjs": "sha384-VmhOwzvc2e+QKZeRQxS4zLgmPaeZPOi7w4lNLmCzX9MFu9z9IfMONbYaW6cDR/Mh"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-network-firewall@3.931.0/index.min.mjs": "sha384-y/SLixDbOvCoRtXi6GJRHAtQKtcGORWsiUQe5HZhjKcVIn8pND8AR4K0UYRIxzyZ"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.930.0`)
+* Always pin to a specific version (`@3.931.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-network-firewall/blob/refs/tags/3.930.0/LICENSE
+https://github.com/cloud-sdk-builds/client-network-firewall/blob/refs/tags/3.931.0/LICENSE
 ```
 
 ---
